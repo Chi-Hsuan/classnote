@@ -254,10 +254,11 @@
   + 檢查 php-fpm 設定檔內容，通常是 www.conf :
     ```md
     (只需修改需要的部份，其他的設定項目保留原狀)
-    #vim /etc/opt/php73/php-fpm.d/www.conf
+    #cd /etc/php-fpm.d
+    #nano www.conf
       user = nginx
       group = nginx
-      listen = /var/opt/remi/php73/run/php-fpm/php-fpm.sock
+      listen = /run/php-fpm/www.sock
       listen.acl_users = nginx
       slowlog = /var/log/php-fpm/www-slow.log
       php_admin_value[error_log] = /var/log/php-fpm/www-error.log
