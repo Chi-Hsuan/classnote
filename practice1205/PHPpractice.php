@@ -30,9 +30,9 @@
     # hehehe
     /*Oh my GOD,
     Are you an idiot?*/
-     printf("hello world") ;
-     print"my name is Chi.";
-     echo"How about you?";
+     printf("hello world <br />") ;
+     print"my name is Chi.<br />";
+     echo"How about you?<br />";
     ?>
     <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
