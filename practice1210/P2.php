@@ -26,4 +26,7 @@ echo "圓面積:" .$circlearea;
   $lunch["飯類"]["雞肉飯"]="今天不賣";
   $lunch[1]=array("廣東粥"=>80,"炸雞排"=>70);
   echo $lunch;
+
+  $a=array("Banana"=>"香蕉","Apple"=>"蘋果","Watermelon"=>"西瓜"
+    );
 ?>
