@@ -12,3 +12,9 @@ $sum = hello($x);
 echo "x=$x<br />";
 echo "sum=$sum<br />";
 ?>    
+
+<?php
+   echo 1<=>1;
+   echo 1<=>2;
+   echo 2<=>1;
+?>
