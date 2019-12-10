@@ -15,12 +15,12 @@ echo "sum=$sum<br />";
 
 <?php
    echo 1<=>1 ;
-   echo "a<br/>";
+   echo "<br/>";
    echo 1<=>2 ;
-   echo "a<br/>";
+   echo "<br/>";
    echo 2<=>1 ;
-   echo "a<br/>";
+   echo "<br/>";
    echo 3<=>1 ;
-   echo "a<br/>";
+   echo "<br/>";
    echo 1<=>3 ;
 ?>
