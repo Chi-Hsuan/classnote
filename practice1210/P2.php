@@ -13,7 +13,7 @@ echo "圓面積:" .$circlearea;
   $eggbox[1]=100;
   $eggbox[]=20;
   $eggbox["duck"]=50;
-  $drinkbox=("啤酒"=>70,"cola"=>30);
+  $drinkbox=["啤酒"=>70,"cola"=>30];
   $foodbox=["飯團"=>50];
   echo $eggbox;
   echo $foodbox;
