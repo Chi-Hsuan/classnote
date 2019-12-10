@@ -35,7 +35,7 @@ echo "sum=$sum<br />";
  ?>
  <P>-----</p>
  <?php
- $i = 10;
+ $i = 100;
  if ($i == 10) echo "Too Many";
  else $i+=100;
  echo $i; 
