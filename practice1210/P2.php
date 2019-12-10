@@ -30,4 +30,5 @@ echo "圓面積:" .$circlearea;
   $a=array("Banana"=>"香蕉","Apple"=>"蘋果","Watermelon"=>"西瓜"
     );
     echo $a["Apple"];
+    print_r($a);
 ?>
