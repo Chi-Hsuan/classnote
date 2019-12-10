@@ -14,7 +14,7 @@ echo "sum=$sum<br />";
 ?>    
 
 <?php
-   echo "1<=>1 <br/>";
-   echo "1<=>2 <br/>";
-   echo "2<=>1 <br/>";
+   echo 1<=>1 <br />;
+   echo 1<=>2 <br />;
+   echo 2<=>1 <br />;
 ?>
