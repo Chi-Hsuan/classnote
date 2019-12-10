@@ -19,4 +19,8 @@ echo "sum=$sum<br />";
    echo 1<=>2 ;
    echo "a<br/>";
    echo 2<=>1 ;
+   echo "a<br/>";
+   echo 3<=>1 ;
+   echo "a<br/>";
+   echo 1<=>3 ;
 ?>
