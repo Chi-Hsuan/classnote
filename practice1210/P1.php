@@ -8,7 +8,7 @@ function hello($x){
 ?>
 <p>------我是分隔線-----<p>
 <?php
-$sum hello($x);
+$sum = hello($x);
 echo "x=$x<br />";
 echo "sum=$sum<br />";
 ?>    
