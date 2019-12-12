@@ -12,7 +12,7 @@ else{
 ?>
 
 <?php
-$point = 87;
+$point=68;
 switch($point){
     case"$point >= 90":
     echo"A";
