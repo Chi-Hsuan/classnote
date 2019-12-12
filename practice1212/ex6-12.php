@@ -10,10 +10,11 @@ echo "總和是: $sum";
 
 <?php
 $sum=0;
+$i=1;
 while($i<=50){
-    $i=1;
-    $i++;
     $sum+=$i;
+    $i++;
+    
 }
 echo"總和是:$sum"
 ?>
