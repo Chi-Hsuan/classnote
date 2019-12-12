@@ -6,7 +6,7 @@ $sum+=$i;
 echo "總和是: $sum";
 ?>
 
-echo"<br/>";
+<br/>
 
 <?php
 $sum=0;
@@ -18,7 +18,7 @@ while($i<=50){
 echo"總和是:$sum"
 ?>
 
-echo"<br/>";
+<br/>
 
 <?php
 $sum = 0;
