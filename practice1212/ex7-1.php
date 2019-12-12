@@ -42,14 +42,4 @@ echo "成績等級: $backscore";
 
     echo "總共是：".sum(1,3,5,7,9);
 ?>
-<?php
-    function sum(...$numbers){
-        $total = 0;
-        foreach ($numbers as $i){
-            $total += $i;
-        }
-        return $total;
-    }
 
-    echo "總共是：".sum(2,4,6,8,10);
-?>
