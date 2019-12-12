@@ -9,8 +9,8 @@ echo "總和是: $sum";
 <?php
 $sum=0;
 while($i<=50){
-    $i++;
     $sum+=$i;
+    $i++;
 }
 echo"總和是:$sum"
 ?>
