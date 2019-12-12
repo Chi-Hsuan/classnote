@@ -12,18 +12,18 @@ else{
 ?>
 
 <?php
-$point=68;
-switch($point){
-    case"$point >= 90":
+$i=68;
+switch($i){
+    case($i >= 90):
     echo"A";
     break;
-    case"$point >= 80":
+    case($i >= 80):
     echo"B";
     break;
-    case"$point >= 70":
+    case($i>= 70):
     echo"C";
     break;
-    case"$point >= 60":
+    case($i >= 60):
     echo"D";
     break;
     default:
