@@ -16,13 +16,17 @@ $point = 87;
 switch($point){
     case"$point >= 90":
     echo"A";
+    break;
     case"$point >= 80":
     echo"B";
+    break;
     case"$point >= 70":
     echo"C";
+    break;
     case"$point >= 60":
     echo"D";
-    case"$point < 60":
+    break;
+    default:
     echo"F";
 }
 
