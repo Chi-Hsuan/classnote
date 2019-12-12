@@ -11,6 +11,8 @@ else{
 }
 ?>
 
+echo"<br/>";
+
 <?php
 $i=68;
 switch($i){

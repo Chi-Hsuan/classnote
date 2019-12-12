@@ -6,14 +6,19 @@ $sum+=$i;
 echo "總和是: $sum";
 ?>
 
+echo"<br/>";
+
 <?php
 $sum=0;
 while($i<=50){
-    $sum+=$i;
+    $i=1;
     $i++;
+    $sum+=$i;
 }
 echo"總和是:$sum"
 ?>
+
+echo"<br/>";
 
 <?php
 $sum = 0;
