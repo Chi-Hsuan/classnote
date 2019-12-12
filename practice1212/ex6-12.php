@@ -12,6 +12,7 @@ while($i<=50){
     $i++;
     $sum+=$i;
 }
+echo"總和是:$sum"
 ?>
 
 <?php
@@ -21,4 +22,5 @@ do{
     $sum+=$i;
     $i++;
 }while($i<=50);
+echo"總和是:$sum"
 ?>
