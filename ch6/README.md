@@ -146,12 +146,11 @@
       function hello($x){
         $sum = $x * 2;
         echo "函數執行結束 <br />";
-        return $sum;
       }
     ?>
     <p> -------我是分隔線------</p>
     <?php
-      $sum = hello($x);
+      hello($x);
       echo "x=$x<br />";
       echo "sum=$sum<br />";
     ?>
@@ -443,7 +442,7 @@
     + 用於可數的重複工作
     + 語法 :
       ```php
-        if (起始值;條件式;步進值){
+        for (起始值;條件式;步進值){
           需要重複做的事;
         }
       ``` 
