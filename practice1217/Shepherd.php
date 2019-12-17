@@ -8,6 +8,10 @@ class Shepherd extends Dog{
         $this->age=$age;
     }
 
+    public function getAge(){
+        return $this->age;
+    }
+
     public function doWork(){
         echo "趕羊..."."<br />";
     }
