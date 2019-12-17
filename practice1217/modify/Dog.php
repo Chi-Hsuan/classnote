@@ -1,6 +1,6 @@
 <?php
 include "Bark.php";
-abstract class Dogg implements Bark{
+abstract class Dog implements Bark{
     public $name;
     public $color;
     public $style;
