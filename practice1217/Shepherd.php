@@ -3,8 +3,8 @@ include "Dog.php";
 class Shepherd extends Dog{
     protected $age;
 
-public function __constuct($name,$color,$style,$age){
-    parent:: __construct ($name,$color,$style);
+public function __construct($name,$color,$style,$age){
+    parent::__construct ($name,$color,$style);
     $this -> age=$age;
 }
 
