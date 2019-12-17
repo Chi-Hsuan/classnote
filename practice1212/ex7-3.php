@@ -10,7 +10,7 @@ function table99($i=2,$j=1){
         $j++;
         table99($i,$j);
     }
-    echo table99();
 }
+    echo table99();
 
 ?>
