@@ -8,7 +8,7 @@ class Poodle extends Dog{
         $this->size=$size;
     }
     
-    public function dogBark(){
+    public function Bark(){
         echo "狗叫...但小聲";
        // parent::dogBark();
     }

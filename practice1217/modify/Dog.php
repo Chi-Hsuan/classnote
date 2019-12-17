@@ -15,7 +15,7 @@ abstract class Dog implements Bark{
         echo "狗狗跑步中...";
     }
 
-    public function dogBark(){
+    public function Bark(){
        
     }
 
