@@ -1,19 +1,19 @@
 <?php
 abstract class Animal{
-    public function move(){
-        echo "sleeping";
+    public function sleep(){
+        echo 'sleeping';
     }
 }
 
 class Dog extends Animal{
     public function move(){
-        echo "run";
+        echo 'run';
     }
 }
 
 class Bird extends Animal{
     public function move(){
-        echo "fly";
+        echo 'fly';
     }
 }
 
@@ -26,6 +26,6 @@ class Action{
 $dog=new Dog();
 $bird=new Bird();
 $action=new Action();
-$action->ActionMove($dog);
-$action->ActionMOve($Bird);
+$action->actionMove($dog);
+$action->actionMOve($Bird);
 ?>
