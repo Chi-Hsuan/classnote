@@ -1,19 +1,19 @@
 <?php
 abstract class Animal{
     public function sleep(){
-        echo 'sleeping';
+        echo '睡';
     }
 }
 
 class Dog extends Animal{
     public function move(){
-        echo 'run';
+        echo '跑';
     }
 }
 
 class Bird extends Animal{
     public function move(){
-        echo 'fly';
+        echo '飛';
     }
 }
 
