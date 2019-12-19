@@ -1,7 +1,7 @@
 <?php
 abstract class Animal{
     public function move(){
-        echo "sleep";
+        echo "sleeping";
     }
 }
 
@@ -23,9 +23,9 @@ class Action{
     }
 }
 
-$dog=new Dog;
-$bird=new Bird;
-$action=new Action;
+$dog=new Dog();
+$bird=new Bird();
+$action=new Action();
 $action->ActionMove($dog);
 $action->ActionMOve($Bird);
 ?>
