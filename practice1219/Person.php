@@ -3,8 +3,8 @@ class Person{
     private $sex;
     public function __set($name,$value){
 
-        if(isset($this->$name)){
-             return $this->$name=$value;
+        if(isset($this->name)){
+             return $this->name=$value;
         }else{ 
            return null;
         }
