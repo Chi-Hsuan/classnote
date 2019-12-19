@@ -27,5 +27,5 @@ $dog=new Dog();
 $bird=new Bird();
 $action=new Action();
 $action->actionMove($dog);
-$action->actionMOve($Bird);
+$action->actionMove($Bird);
 ?>
