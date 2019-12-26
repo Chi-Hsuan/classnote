@@ -8,3 +8,4 @@ function firstAutoload($className){
 }
 //向 spl_autoload 註冊這個方法的名稱
 spl_autoload_register('firstAutoload');
+?>
